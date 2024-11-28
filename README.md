@@ -4,12 +4,13 @@ This repository demonstrates an automated approach to identifying, acquiring, an
 
 KEYWORDS: Data mining - Bioinformatics - Gene Expression Omnibus - Large Language Models - AI-assisted curation - scRNA sequencing - Biomarker discovery
 
-Why Biological Fluids and Single-Cell Transcriptomics?
-Clinical Utility: We are interested in identifying biomarkers that can be easily and non-invasively obtained for the clinical detection of PD. Biological fluids, especially blood, offer a promising avenue for developing such diagnostic tools.
+**Why Biological Fluids and Single-Cell Transcriptomics?**
 
-Enhancing Resolution: Previous analyses of bulk sequencing data have revealed transcriptomic differences between PD patients and healthy controls. However, these differences are often subtle at the bulk level. We hypothesize that by profiling these samples at single-cell resolution, we can maximize our ability to detect and characterize these differences, potentially uncovering cell type-specific biomarkers that are masked in bulk analyses.
+**Clinical Utility:** We are interested in identifying biomarkers that can be easily and non-invasively obtained for the clinical detection of PD. Biological fluids, especially blood, offer a promising avenue for developing such diagnostic tools.
 
-Project Components
+**Enhancing Resolution:** Previous analyses of bulk sequencing data have revealed transcriptomic differences between PD patients and healthy controls. However, these differences are often subtle at the bulk level. We hypothesize that by profiling these samples at single-cell resolution, we can maximize our ability to detect and characterize these differences, potentially uncovering cell type-specific biomarkers that are masked in bulk analyses.
+
+# Project Components
 This project encompasses three main areas:
 
 Programmatic Extraction of Data: Utilizing Python libraries to interact with the Gene Expression Omnibus (GEO) database, perform automated querying based on specific search criteria, and efficiently download relevant dataset metadata.
@@ -18,7 +19,7 @@ AI-Driven Analysis of Experimental Metadata: Employing Llama 3.2 via Ollama for 
 
 Single-cell Transcriptomics Analysis: Conducting end-to-end scRNA-seq analysis of 10X Genomics data using Python libraries such as Scanpy and scv-tools, to uncover cell type-specific signatures and potential biomarkers.
 
-Data Availability
+# Data Availability
 This project involves two main types of data:
 
 Gene Expression Omnibus (GEO) Data:
@@ -32,7 +33,7 @@ Curated Dataset: The final output of our data collection and AI analysis process
 🧫 Conclusion
 To be continued
 
-NOTE
+# NOTE
 Note on Ollama Installation
 This notebook **DOES NOT cover the installation of Ollama or the Docker generation for this project. For detailed instructions on installing Ollama and structuring its output, please refer to:
 
