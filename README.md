@@ -1,4 +1,4 @@
-🧬 # Project Introduction
+# Project Introduction
 
 This repository demonstrates an automated approach to identifying, acquiring, and analyzing specific types of publicly available genomic data to support biomarker discovery for Parkinson's Disease (PD). The project focuses on single-cell transcriptomic data generated from biological fluids, particularly whole blood or peripheral blood mononuclear cells (PBMCs).
 
