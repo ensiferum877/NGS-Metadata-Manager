@@ -1,5 +1,6 @@
 # 🔍 Automated Metadata Discovery and Analysis Framework with AI-Driven Contextualization
 **Framework Overview**
+
 This repository presents a comprehensive framework for automated discovery, acquisition, and analysis of publicly available genomic data. The system combines programmatic data extraction and AI-driven metadata analysis to facilitate systematic data mining and interpretation.
 
 **Core Framework Components**
