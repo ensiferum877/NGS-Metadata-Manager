@@ -1,20 +1,22 @@
 # 🔍 Automated Metadata Discovery and Analysis Framework with AI-Driven Contextualization
-Framework Overview
+**Framework Overview**
 This repository presents a comprehensive framework for automated discovery, acquisition, and analysis of publicly available genomic data. The system combines programmatic data extraction and AI-driven metadata analysis to facilitate systematic data mining and interpretation.
-Core Framework Components
-1. Programmatic Data Extraction
 
-Automated interaction with the Gene Expression Omnibus (GEO) database using Biopython
-Systematic querying based on customizable search criteria
-Efficient metadata and dataset downloading capabilities
+**Core Framework Components**
+- 1. Programmatic Data Extraction
 
-2. AI-Driven Metadata Analysis
+ Automated interaction with the Gene Expression Omnibus (GEO) database using Biopython
+ Systematic querying based on customizable search criteria
+ Efficient metadata and dataset downloading capabilities
 
-Integration with Llama 3.2 via Ollama for intelligent data labeling
-Automated classification and contextualization of experimental metadata
-Enhanced dataset relevance assessment
+- 2. AI-Driven Metadata Analysis
 
-Use Case: Single-cell RNA Sequencing in Parkinson's Disease
+ Integration with Llama 3.2 via Ollama for intelligent data labeling
+ Automated classification and contextualization of experimental metadata
+ Enhanced dataset relevance assessment
+
+# Use Case: Single-cell RNA Sequencing in Parkinson's Disease
+
 Project Goal
 We demonstrate the framework's capabilities by screening public repositories for blood-based single-cell RNA sequencing data in Parkinson's Disease (PD). This addresses a key need in precision medicine: identifying easily accessible biomarkers from minimally invasive sources.
 Approach
