@@ -6,18 +6,12 @@ and AI-driven metadata analysis to facilitate systematic data mining and interpr
 
 **Core Framework Components**
 
-- Programmatic Data Extraction
-
-Automated interaction with the Gene Expression Omnibus (GEO) database using Biopython
-Systematic querying based on customizable search criteria
-Metadata and dataset downloading capabilities
+- Programmatic Data Extraction: Automated interaction with the Gene Expression Omnibus (GEO) database using Biopython
+Systematic querying based on customizable search criteria and Metadata and dataset downloading capabilities
 
 
-- AI-Driven Metadata Analysis
-
-Integration with Llama 3.2 via Ollama for intelligent data labeling
-Automated classification and contextualization of experimental metadata
-Enhanced dataset relevance assessment
+- AI-Driven Metadata Analysis: Integration with Llama 3.2 via Ollama for intelligent data labeling
+Automated classification and contextualization of experimental metadata Enhanced dataset relevance assessment
 
 # Demonstration: Application to Parkinson's Disease Biomarker Research
 
