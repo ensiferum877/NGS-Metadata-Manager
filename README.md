@@ -21,6 +21,7 @@ This repository presents a comprehensive framework for automated discovery, acqu
 We demonstrate the framework's capabilities by screening public repositories for blood-based single-cell RNA sequencing data in Parkinson's Disease (PD). This addresses a key need in precision medicine: identifying easily accessible biomarkers from minimally invasive sources.
 
 **Approach**
+
 Our automated framework systematically:
 
 Identifies relevant datasets
@@ -28,6 +29,7 @@ Acquires metadata and data files
 Analyzes dataset characteristics and quality
 
 **Scientific Rationale**
+
 1. Clinical Utility
 
 Focus on blood-based biomarkers for non-invasive PD detection
