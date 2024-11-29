@@ -1,42 +1,28 @@
-# Project Introduction
+# 🔍 Automated Metadata Discovery and Analysis Framework with AI-Driven Contextualization
 
-This repository demonstrates an automated approach to identifying, acquiring, and analyzing specific types of publicly available genomic data to support biomarker discovery for Parkinson's Disease (PD). The project focuses on single-cell transcriptomic data generated from biological fluids, particularly whole blood or peripheral blood mononuclear cells (PBMCs).
+**Framework Overview**
+This repository presents a comprehensive framework for automated discovery, acquisition, and analysis of publicly available genomic data. The system combines programmatic data extraction,
+and AI-driven metadata analysis to facilitate systematic data mining and interpretation.
 
-KEYWORDS: Data mining - Bioinformatics - Gene Expression Omnibus - Large Language Models - AI-assisted curation - scRNA sequencing - Biomarker discovery
+**Core Framework Components**
 
-**Why Biological Fluids and Single-Cell Transcriptomics?**
+- Programmatic Data Extraction
 
-**Clinical Utility:** We are interested in identifying biomarkers that can be easily and non-invasively obtained for the clinical detection of PD. Biological fluids, especially blood, offer a promising avenue for developing such diagnostic tools.
+Automated interaction with the Gene Expression Omnibus (GEO) database using Biopython
+Systematic querying based on customizable search criteria
+Metadata and dataset downloading capabilities
 
-**Enhancing Resolution:** Previous analyses of bulk sequencing data have revealed transcriptomic differences between PD patients and healthy controls. However, these differences are often subtle at the bulk level. We hypothesize that by profiling these samples at single-cell resolution, we can maximize our ability to detect and characterize these differences, potentially uncovering cell type-specific biomarkers that are masked in bulk analyses.
 
-# Project Components
-This project encompasses three main areas:
+- AI-Driven Metadata Analysis
 
-Programmatic Extraction of Data: Utilizing Python libraries to interact with the Gene Expression Omnibus (GEO) database, perform automated querying based on specific search criteria, and efficiently download relevant dataset metadata.
+Integration with Llama 3.2 via Ollama for intelligent data labeling
+Automated classification and contextualization of experimental metadata
+Enhanced dataset relevance assessment
 
-AI-Driven Analysis of Experimental Metadata: Employing Llama 3.2 via Ollama for AI-driven data labeling of GEO experimental metadata, enhancing our ability to identify relevant datasets accurately.
+# Demonstration: Application to Parkinson's Disease Biomarker Research
 
-Single-cell Transcriptomics Analysis: Conducting end-to-end scRNA-seq analysis of 10X Genomics data using Python libraries such as Scanpy and scv-tools, to uncover cell type-specific signatures and potential biomarkers.
+This repository demonstrates an automated approach to identifying, acquiring, and analyzing specific types of publicly available genomic data to support biomarker discovery for Parkinson's Disease (PD). The advancement of precision medicine in Parkinson's Disease (PD) requires easily accessible biomarkers from minimally invasive sources. We therefore hypothesized that Blood-based single-cell transcriptomics (scRNA-seq) data holds particular promise for this purpose. Since we don't possess any sort of similar type of experimental data, we screened public repositories such as the Gene Expression Omnibus (GEO) to understand whether such data is actually available in public repositories.
 
-# Data Availability
-This project involves two main types of data:
 
-Gene Expression Omnibus (GEO) Data:
-
-Experimental Metadata: We query GEO for studies related to Parkinson's disease, focusing on single-cell RNA sequencing data from blood or PBMC samples. This metadata includes information about study design, sample characteristics, and experimental protocols.
-scRNA-seq Data: For selected studies, we download the actual single-cell RNA sequencing data. This typically includes gene expression matrices, cell annotations, and related files necessary for downstream analysis.
-AI-Generated and Processed Data:
-
-Llama 3.2 7B via Ollama Output: We use the Llama 3.2 7B model, accessed through Ollama, to analyze and classify the experimental metadata from GEO. This AI-generated data includes classifications of studies based on technology used, sample type, and relevance to our research question, as well as justifications for these classifications.
-Curated Dataset: The final output of our data collection and AI analysis process is a curated dataset that combines information from GEO metadata, AI classifications, and links to the relevant scRNA-seq data files.
-🧫 Conclusion
-To be continued
-
-# NOTE
-Note on Ollama Installation
-This notebook **DOES NOT cover the installation of Ollama or the Docker generation for this project. For detailed instructions on installing Ollama and structuring its output, please refer to:
-
-Llama 3.2 Tutorial: How to Use Llama 3.2 (7B, 13B, 70B) Locally
-
-It's recommended to set up Ollama before running the notebook to ensure all AI-assisted data curation steps function correctly.
+# Technical Requirements
+Note: This implementation requires Ollama installation. Detailed installation instructions and Docker configuration are provided in separate documentation.
